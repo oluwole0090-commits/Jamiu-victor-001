@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Jamiu-victor-001</title>
+  <meta name="description" content="About Jamiu-victor-001 — mission, programs, team, and how to join." />
+  <link rel="icon" href="assets/favicon.ico" />
+  <style>
+    :root{--accent:#0b74ff;--bg:#f6f8fb;--card:#fff;--muted:#556077;--radius:12px}
+    *{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,system-ui,Roboto,Arial}
+    body{background:linear-gradient(180deg,var(--bg),#fff);color:#0b1220}
+    .wrap{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .brand{font-weight:800;font-size:18px}
+    nav a{margin-left:14px;text-decoration:none;color:var(--muted);font-weight:700}
+    .hero{background:var(--card);padding:22px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(9,20,45,0.06);margin-bottom:18px}
+    h1{margin:0 0 6px;font-size:24px}
+    p.lead{margin:0;color:var(--muted)}
+    .section{background:var(--card);padding:18px;border-radius:10px;margin-bottom:12px;box-shadow:0 6px 18px rgba(9,20,45,0.03)}
+    .two-col{display:grid;grid-template-columns:1fr;gap:12px}
+    .meta{font-size:13px;color:var(--muted)}
+    .cta{display:flex;gap:10px;margin-top:10px}
+    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:800}
+    .btn-primary{background:var(--accent);color:white}
+    @media(min-width:820px){.two-col{grid-template-columns:2fr 340px} h1{font-size:28px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Jamiu-victor-001</div>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="about-heading">
+      <h1 id="about-heading">About Jamiu-victor-001</h1>
+      <p class="lead">We are dedicated to nurturing bright minds and building a future through excellence in education. Below you'll find our mission, programs, team info, and how to join or support us.</p>
+    </section>
+
+    <main>
+      <div class="two-col">
+        <div>
+          <div class="section" id="mission">
+            <h2>Our Mission</h2>
+            <p class="meta">To provide high-quality, accessible learning opportunities that empower students, fans, and community members to reach their potential.</p>
+            <ul>
+              <li>Provide free/affordable workshops and classes</li>
+              <li>Support mentorship and community learning</li>
+              <li>Share resources and success stories</li>
+            </ul>
+          </div>
+
+          <div class="section" id="vision">
+            <h2>Our Vision</h2>
+            <p class="meta">A community where every learner can access tools, guidance, and opportunities to build a brighter future.</p>
+          </div>
+
+          <div class="section" id="programs">
+            <h2>Programs & Activities</h2>
+            <p class="meta">Examples of what we run or plan to run:</p>
+            <ul>
+              <li>Youth coding & digital skills classes</li>
+              <li>Study groups & mentorship sessions</li>
+              <li>Weekend workshops (art, music, entrepreneurship)</li>
+              <li>Community outreach and scholarship info</li>
+            </ul>
+          </div>
+
+          <div class="section" id="how-to-join">
+            <h2>How to Join</h2>
+            <p class="meta">Interested? Here's how:</p>
+            <ol>
+              <li>Send a message on WhatsApp: <a href="https://wa.me/2348119634405" target="_blank">Chat on WhatsApp</a></li>
+              <li>Send an email: <a href="mailto:victorjamiu7@gmail.com">victorjamiu7@gmail.com</a></li>
+              <li>Follow our social links and watch for events</li>
+            </ol>
+            <div class="cta">
+              <a class="btn btn-primary" href="https://wa.me/2348119634405" target="_blank">Message on WhatsApp</a>
+              <a class="btn" href="mailto:victorjamiu7@gmail.com">Email Us</a>
+            </div>
+          </div>
+
+          <div class="section" id="testimonials">
+            <h2>Testimonials</h2>
+            <p class="meta">“Great learning experience — very supportive.” — Student A</p>
+            <p class="meta">“Practical and inspiring.” — Student B</p>
+            <p class="meta">Add more testimonials here as you collect them.</p>
+          </div>
+        </div>
+
+        <aside class="section" id="team">
+          <h3>Team & Contacts</h3>
+          <p class="meta"><strong>Founder</strong>: Jamiu Victor</p>
+          <p class="meta"><strong>Email</strong>: <a href="mailto:victorjamiu7@gmail.com">victorjamiu7@gmail.com</a></p>
+          <p class="meta"><strong>WhatsApp</strong>: <a href="https://wa.me/2348119634405" target="_blank">+234 811 963 4405</a></p>
+
+          <hr style="margin:10px 0;border:none;border-top:1px solid #eee" />
+
+          <h4>Support / Donate</h4>
+          <p class="meta">If you'd like to support our activities, please email or message us to learn about ways to contribute.</p>
+
+          <hr style="margin:10px 0;border:none;border-top:1px solid #eee" />
+
+          <h4 id="contact">Quick Links</h4>
+          <p class="meta"><a href="index.html">Home</a> • <a href="about.html">About</a> • <a href="https://wa.me/2348119634405" target="_blank">WhatsApp</a></p>
+        </aside>
+      </div>
+
+      <div style="margin-top:12px" class="section">
+        <h2>Frequently Asked Questions</h2>
+        <details><summary>Who can join?</summary><p class="meta">Anyone interested in learning — kids, teens, and adults. We run programs for different age groups.</p></details>
+        <details><summary>Are there fees?</summary><p class="meta">Some workshops may be free; others may have a small fee. Contact us for details.</p></details>
+        <details><summary>How do I volunteer?</summary><p class="meta">Send us a message on WhatsApp or email and tell us your skills and availability.</p></details>
+      </div>
+    </main>
+
+    <footer style="margin-top:18px;color:var(--muted);font-size:13px;text-align:center">
+      © <span id="year"></span> Jamiu-victor-001 — Built with GitHub Pages
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
